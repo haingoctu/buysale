@@ -1,6 +1,8 @@
 # buysale
 A program that watches r/goodyearwelt for their bi-weekly buy/sell threads, and aggregates the seller's posting on to a Google Sheets.
 
+This bot no longer runs due to a fallout between me and the r/goodyearwelt moderators.
+
 Dependencies:
   github.com/turnage/graw
 
