@@ -6,14 +6,14 @@ import (
         "io/ioutil"
         "net/http"
         "os"
-		"buysale/parse"
+	"buysale/parse"
 
         "golang.org/x/net/context"
         "golang.org/x/oauth2"
         "golang.org/x/oauth2/google"
         "google.golang.org/api/sheets/v4"
-		"google.golang.org/api/drive/v3"
-		"buysale/mylog"
+	"google.golang.org/api/drive/v3"
+	"buysale/mylog"
 )
 
 const COL_IN_SHEETS int = 10
