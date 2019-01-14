@@ -2,16 +2,16 @@ package main
 
 import (
         "fmt"
-		"flag"
-		"os"
-		"io/ioutil"
-		"strings"
+	"flag"
+	"os"
+	"io/ioutil"
+	"strings"
 		
         "github.com/turnage/graw"
         "github.com/turnage/graw/reddit"
-		"buysale/parse"
-		"buysale/sheets"
-		"buysale/mylog"
+	"buysale/parse"
+	"buysale/sheets"
+	"buysale/mylog"
 )
 
 const VERSION = "20181114" //removed **
@@ -26,7 +26,6 @@ var (
  file = flag.String("file", "buysale_history", "file that logs the most recent posting")
  
  logger = mylog.GetInstance()
- 
  item = map[int]*parse.Shoe{}
 )
 
