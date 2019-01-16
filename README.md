@@ -1,6 +1,8 @@
 # buysale
 A program that watches r/goodyearwelt for their bi-weekly buy/sell threads, and aggregates the sellers' posting on to a Google Sheets.
 
+The parsing is based upon the 'recommended' formatting of an item being sold.
+
 This bot no longer runs due to a fallout between me and the r/goodyearwelt moderators.
 Sample of what the Google Sheets looked like, https://docs.google.com/spreadsheets/d/1qggDIIWCtAjweY3n2G_SbhOaTGmNTan__y6ZyX2Vcnc/edit?usp=sharing
 
