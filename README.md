@@ -9,6 +9,6 @@ Sample of what the Google Sheets looked like, https://docs.google.com/spreadshee
 Dependencies:
   github.com/turnage/graw (you'll need to create your own config file)
 
-TODO:
+#####TODO:
 - If the program crashes, and you rerun it, it does not pick up the latest buy/sell thread automactically. We want to read from the saved file, the current thread and Google sheet ID so we can continue from where we left of.
 - Refactor parse.go so that the parsing for many of the items is in one func instead of seperate cases.
