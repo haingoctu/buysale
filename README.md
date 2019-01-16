@@ -5,8 +5,7 @@ This bot no longer runs due to a fallout between me and the r/goodyearwelt moder
 Sample of what the Google Sheets looked like, https://docs.google.com/spreadsheets/d/1qggDIIWCtAjweY3n2G_SbhOaTGmNTan__y6ZyX2Vcnc/edit?usp=sharing
 
 Dependencies:
-  github.com/turnage/graw
-
+  github.com/turnage/graw (you'll need to create your own config file)
 
 TODO:
 If the program crashes, and you rerun it, it does not pick up the latest buy/sell thread automactically. We want to read from the saved file, the current thread and Google sheet ID so we can continue from where we left of.
